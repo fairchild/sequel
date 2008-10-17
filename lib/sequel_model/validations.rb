@@ -303,9 +303,9 @@ module Sequel
       end
     end
 
-    # Validates only if the fields in the model (specified by atts) are
-    # unique in the database.  Pass an array to speficy that the combination must be unique.  You should also add a unique index in the
-    # database, as this suffers from a fairly obvious race condition.
+    # Validates only if the fields in the model (specified by atts) are unique in the database.  
+    # Pass an array to speficy that the combination must be unique.  
+    # You should also add a unique index in the database, as this suffers from a fairly obvious race condition.
     #
     # Possible Options:
     # * :allow_nil - Whether to skip the validation if the value(s) is/are nil (default: false)
